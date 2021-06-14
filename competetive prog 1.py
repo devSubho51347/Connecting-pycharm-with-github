@@ -12,9 +12,12 @@
 def my_function(a,b):
     return a + b
 
+
 import numpy as np
 a = np.linspace(1,20,10,dtype=int,endpoint=False)
 print(a)
 print(type(a))
 print("How are you doing?")
 print("added second print statement")
+## Added input command
+input = [int(x) for x in input().split()]
