@@ -10,7 +10,7 @@
 # print(li)
 
 def my_function(a,b):
-    return a + b
+    return a - b
 
 import numpy as np
 a = np.linspace(1,20,10,dtype=int,endpoint=False)
